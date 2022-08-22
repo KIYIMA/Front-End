@@ -1,0 +1,53 @@
+#logoAP{
+    width: 130px;
+}
+.redes img{
+    width: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes {
+    
+    margin-right: 0.5em;
+}
+.btn{
+    margin-left: 0.5em;
+    border-width: medium;
+}
+
+
+@media(max-width: 575px){
+    .container{
+        flex-direction: column;
+    
+    }
+    .redes{
+        display: inline;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1%;
+    }
+    .redes img{
+        margin: 0.2em;
+    }
+}
+
+@media(max-width: 350px){
+    
+    .redes{
+        display: inline;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1%;
+    }
+    .redes img{
+        width: 30px;
+        margin: 0.2em;
+    }
+    .iniciar, .cerrar{
+        
+    }
+}

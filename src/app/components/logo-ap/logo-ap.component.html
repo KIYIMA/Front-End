@@ -1,0 +1,32 @@
+<div class="row " >
+    <div class="container">
+        <div class="logo">
+            <img id="logoAP" src="../../../assets/APLogo.png"  alt="">
+        </div>
+        <div class="redes">
+            <a href="https://ar.linkedin.com/" >
+                <img src="../../../assets/linkedin.png" alt="LogoAP"> 
+              </a>
+            
+                <a href="https://twitter.com/" >
+                  <img src="../../../assets/twitter.png" alt="LogoAP"> 
+                </a>
+            
+              <a href="https://www.instagram.com/ema_7_lz/" >
+                  <img src="../../../assets/instagram.png" alt="LogoAP"> 
+              </a>
+            
+              <a href="https://github.com/KIYIMA" >
+                  <img src="../../../assets/github.png" alt="LogoAP"> 
+              </a>
+            
+              <a href="https://www.facebook.com/emanuelezequiel.lezcano.9/"  >
+                  <img src="../../../assets/facebook.png" alt="LogoAP"> 
+              </a>
+        </div>
+        <button type="button" class="btn btn-outline-primary iniciar" (click)="login()" *ngIf="!isLogged">Iniciar</button>
+              <button type="button" class="btn btn-outline-danger col-xs-12" (click)="onLogOut()"  *ngIf="isLogged">Salir</button>
+    </div>
+</div>
+    
+

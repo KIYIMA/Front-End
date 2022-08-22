@@ -1,0 +1,10 @@
+.hysRow{
+    margin-right:0% ;
+    background-color: #151d36 ;
+    color: white;
+    padding: 4%;
+}
+.editCircle{
+    border-radius: 5px;
+    border-width: 1px;
+}

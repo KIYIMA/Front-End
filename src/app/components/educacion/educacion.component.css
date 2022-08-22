@@ -1,0 +1,19 @@
+.experienciaRow{
+    padding: 4%;
+    margin-right:0% ;
+}
+div{
+    background-color: #151d36 ;
+    color: white;
+}
+h2, h4{
+    display: inline;
+}
+.nombreInstitucion{
+    color: rgb(157, 197, 235);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo{
+    color: rgb(157, 197, 235);
+
+}

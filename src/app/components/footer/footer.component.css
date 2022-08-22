@@ -1,0 +1,19 @@
+
+.footerRow{
+    
+    margin-right:0% ;
+    background-color: #151d36 ;
+    color: white;
+}
+div{
+    
+    color: #fefefe;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    box-shadow: 2px -2px 5px rgb(10, 10, 10);
+}
+.copyRight{
+    padding-top: 1%;
+}

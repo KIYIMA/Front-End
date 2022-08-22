@@ -1,0 +1,32 @@
+<div class="row proyectoRow">
+    <h1>Proyectos realizados</h1>
+    <div class="col-12">
+        <button type="button" class="btn btn-dark" routerLink="/nuevoproyecto" *ngIf="isLogged">
+            Agregar Proyecto
+        </button>
+    </div>
+    <div class="row" *ngFor="let Proyectos of proyecto">
+        <div class="col-sm-12 col-md-1 col-lg-1 "></div>
+        <div class="col-sm-8 col-md-9 col-lg-9 parte1">
+            <h1>{{Proyectos.nombreP}}</h1>
+        </div>
+        <div class="col-sm-4 col-md-2 col-lg-2 parte1" *ngIf="isLogged">
+            <button class="btn btn-light" routerLink="/editproyecto/{{Proyectos.id}}">
+                <i class="bi bi-pencil-square"></i>
+            </button>
+            
+            <button class="btn btn-danger" style="margin-left:5px ;" *ngIf="isLogged" (click)="delete(Proyectos.id)">
+                <i class="bi bi-trash"></i> 
+            </button>
+        </div>
+        <div class="col-md-1 col-lg-1 "></div>
+        <div class="col-sm-12 col-md-11 col-lg-11 ">
+            <p>{{Proyectos.descripcionP}}</p>
+        </div>
+        <div class="col-md-1 col-lg-1 "></div>
+        <div class=" col-sm-12 col-md-11 col-lg-11 parte2">
+            <span>GitHub: <a href="{{Proyectos.urlP}}">{{Proyectos.urlP}}</a></span>
+        </div>
+        
+    </div>
+</div>

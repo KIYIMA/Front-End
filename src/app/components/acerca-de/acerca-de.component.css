@@ -1,0 +1,137 @@
+.acercaDeRow{
+    padding: 2%;
+    margin-right:0% ;
+}
+
+@media (min-width: 1650px) { 
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 1px rgb(0, 0, 0);
+        left: 3%;
+        top:45%;
+    }
+}
+@media (max-width: 1650px) { 
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 1px rgb(0, 0, 0);
+        left: 3%;
+        top:43%;
+    }
+}
+@media (max-width: 1450px) { 
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 1px rgb(0, 0, 0);
+        left: 3%;
+        top:40%;
+    }
+}
+@media (max-width: 1300px) { 
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 1px rgb(0, 0, 0);
+        left: 3%;
+        top:37%;
+    }
+}
+@media (max-width: 1200px) { 
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 1px rgb(0, 0, 0);
+        left: 3%;
+        top:35%;
+    }
+}
+@media (max-width: 1050px) { 
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 1px rgb(0, 0, 0);
+        left: 3%;
+        top:30%;
+    }
+}
+@media (max-width: 900px) { 
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 1px rgb(0, 0, 0);
+        left: 3%;
+        top:28%;
+    }
+}
+@media (max-width: 867px) { 
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 1px rgb(0, 0, 0);
+        left: 3%;
+        top:28%;
+    }
+}
+@media (max-width: 764px) {
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 1px rgb(0, 0, 0);
+        left: 3%;
+        top:24%;
+    }
+}
+@media (max-width: 576px) {
+    #fotoPerfil{
+        position: absolute;
+        width: 19%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(0, 0, 0);
+        left: 39%;
+        top:28%;
+
+    }
+}
+@media (max-width: 339px) {
+    #fotoPerfil{
+        position: absolute;
+        width: 19%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(0, 0, 0);
+        left: 39%;
+        top:26%;
+
+    }
+}
+
+div{
+    background-color: #151d36 ;
+    color: white;
+    text-align: center;
+    
+}
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+
+}
+.btn-editProfecion{
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #151d36;
+}
+.btnEditDelete{
+    font-size: -webkit-xxx-large;
+}
